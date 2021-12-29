@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+}
+.clearfix{
+    clear:both;
+}
+img{
+    max-width: 100%;
+}
+
+#wrapper{
+    width: 1080px;
+    margin: 0 auto;
+}
+#siteheader{
+    background-color: lightpink;
+} 
+.logo img {
+    width: 150px;
+    height: auto;
+    float: left;
+    padding: 20px;
+    border-radius: 50%;
+}
+.sitenav{
+    width: 65%;
+    float: right;
+    text-align: right;
+    padding: 20px;
+
+}
+.sitenav a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+#herosec{
+    background: rgb(117, 218, 231) url("../Image/Hill.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+
+}
+.herowrap{
+    width: 850px;
+    margin: 0 auto;
+    background-color: rgba(237, 236, 212, .7);
+    padding: 20px;
+}
+.herowrap h1{
+    color: rgb(56, 5, 122);
+    font-size: 22px;
+}
+.contact-btn a{
+    color: #fff;
+    background-color: black;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-decoration: none;
+   
+}
+.contact-btn{
+    margin-top: 50px;
+}
+#aboutus{
+    background-color: gray;
+    padding: 30px 0;
+    float: right;
+}
+.aboutleft{
+    width: 35%;
+    float: left;
+}
+.aboutright{
+    width: 60%;
+    float: right;
+    padding-right: 2%;
+}
+#service{
+    background-color: lightyellow;
+    padding: 20px;
+    
+}
+.service-col{
+    width: 31.666%;
+    margin-right: 2.5%;
+    float: left;
+
+
+}
+.service-col.last{
+    margin-right: 0;
+}
+
+#datasection{
+    background-color: linen;
+    padding: 35px 20px;
+}
+#datatable{
+    width: 100%;
+}
+
+#datatable th, td {
+    border: 1px solid red;
+    text-align: center;
+    border-collapse: separate;
+}
+
+#datatable th{
+    background-color: maroon;
+    color: #fff;
+}
+#calltoaction{
+    background-color: maroon;
+    padding: 35px;
+    text-align: center;
+    color: #fff;
+}
+#ctawrap{
+    width: 800px;
+    margin: 0 auto;
+}
+.ctabtn{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+#sitefooter{
+    background-color: black;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+}
+#sitefooter p{
+    margin: 0;
+    padding: 0;
+}
